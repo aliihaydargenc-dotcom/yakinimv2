@@ -1,0 +1,11 @@
+<!doctype html>
+<html lang="tr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Hafıza</title><link rel="stylesheet" href="mobile.css"></head>
+<body>
+<header class="memory-hud"><strong id="level-label">Bölümler</strong><span id="record"></span></header>
+<main>
+<section id="menu"><div class="progress"><span id="progress"></span><button id="continue">Devam et</button></div><div id="levels" aria-label="Bölümler"></div></section>
+<section id="play" hidden><p id="phase" role="status"></p><div id="game-container" class="memory-board" aria-label="Hafıza tahtası"></div></section>
+</main>
+<footer><button id="back" hidden>Bölümler</button><span id="time"></span></footer>
+<div id="result" hidden role="dialog" aria-modal="true" aria-labelledby="result-title"><div class="result-card"><h2 id="result-title"></h2><p id="result-copy"></p><button id="next"></button><button id="result-menu">Bölümler</button></div></div>
+<script src="js/app.js"></script></body></html>
